@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <a href="#home">Pratik's Portfolio</a>
+        </div>
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="mode-toggle">Switch to Dark Mode</button>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Hey, I'm Pratik Maity </h1>
+            <p>A passionate B.Tech-CS guy interested in real world problems. Currently at KIIT University.</p>
+            <!-- <button>Get in Touch</button>
+            <button>View Projects</button> -->
+
+            <!-- <button onclick="scrollToSection('contact')">Get in Touch</button>
+<button onclick="scrollToSection('projects')">View Projects</button> -->
+
+            <button class="hero-button" onclick="scrollToSection('contact')">Get in Touch</button>
+            <button class="hero-button" onclick="scrollToSection('projects')">View Projects</button>
+
+
+
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- <p>Hello! I'm John Doe, a dedicated and results-oriented Web Developer with 5+ years of experience in designing, developing, and deploying web applications. I thrive in collaborative environments and enjoy tackling complex problems with elegant solutions.</p> -->
+                    <P>Final-year B.Tech (CS) student who enjoys mixing tech with creativity. I’m into web development,
+                        AI-ML and coding in Java and C, but I’ve also always had a thing for writing — content creation
+                        and editing have been a big part of my college life, especially through active roles in NSS and
+                        social welfare societies.</P>
+                    <!-- <p>My journey into web development started with a fascination for how websites work, which quickly grew into a passion for building interactive and user-friendly digital experiences. I'm proficient in front-end technologies like React and Next.js, as well as back-end development with Node.js and databases like PostgreSQL and MongoDB.</p> -->
+                    <p> Beyond the classroom, I’ve been involved in organizing events, handling communications, and
+                        supporting youth and community-focused initiatives. I’m comfortable with tools like Excel,
+                        PowerPoint, and Google Workspace, and I’ve explored areas like AI, digital forensics, cloud, and
+                        even a bit of graphic design when needed.</p>
+                    <!-- <p>When I'm not coding you can find me exploring the latest tech trends, contributing to open-source projects, or enjoying a good hike.</p> -->
+                    <p> Always up for learning something new — whether it’s building a site, managing a campaign, or
+                        just putting together clean, meaningful work that makes an impact.</p>
+                </div>
+                <div class="about-image">
+                    <img src="about1.jpg" alt="About Image">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <div class="skill">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <!-- <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Next.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>Redux</li> -->
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <!-- <li>Express.js</li> -->
+                        <li>Python</li>
+                        <!-- <li>Django</li>
+                        <li>REST APIs</li>
+                        <li>GraphQL</li> -->
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Databases</h3>
+                    <ul>
+                        <!-- <li>PostgreSQL</li>
+                        <li>MongoDB</li> -->
+                        <li>MySQL</li>
+                        <!-- <li>Firebase Firestore</li> -->
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Cloud</h3>
+                    <ul>
+                        <!-- <li>Docker</li> -->
+                        <li>Git</li>
+                        <!-- <li>CI/CD</li> -->
+                        <li>AWS</li>
+                        <li>Google Cloud</li>
+                        <li>Vercel</li>
+                    </ul>
+                </div>
+                <!-- <div class="skill">
+                    <h3>Tools & Others</h3>
+                    <ul>
+                        <li>Webpack</li>
+                        <li>Babel</li>
+                        <li>Jest</li>
+                        <li>Cypress</li>
+                        <li>Figma</li>
+                        <li>Agile/Scrum</li>
+                    </ul>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-content">
+                <div class="project">
+                    <img src="esrgan_project1.jpeg" alt="Project 1">
+                    <h3>Medical Image Enhancement Model</h3>
+                    <p>Medical Image Enhancement Model using Deep Learning (ESRGAN) </p>
+
+
+                    <a href="https://github.com/your-repo-link" target="_blank">
+                        <button class="github-btn">GitHub</button>
+                    </a>
+
+                    <a href="https://youtube.com" target="_blank">
+                        <button class="live-demo-btn">Live Demo</button>
+                    </a>
+                    <!-- <button>GitHub</button>
+                    <button>Live Demo</button> -->
+                </div>
+                <!-- <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management application using React, Node.js, and MongoDB.</p>
+                    <button>GitHub</button>
+                    <button>Live Demo</button>
+                </div> -->
+                <!-- <div class="project">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Portfolio Website (This one!)</h3>
+                    <p>Personal portfolio website built with Next.js and Chakra UI components.</p>
+                    <button>GitHub</button>
+                    <button>Live Demo</button>
+                </div>
+                <div class="project">
+                    <img src="project4.jpg" alt="Project 4">
+                    <h3>Weather Dashboard</h3>
+                    <p>Simple weather dashboard fetching data from a third-party API.<z/p>
+                    <button>GitHub</button>
+                    <button>Live Demo</button>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>B.Tech in Computer Science & Engineering [CSE]</h3>
+                    <p>KIIT University, Bhubaneswar, Odisha| 2022 - 2026</p>
+                    <p>Experience in Web-dev, AI-ML, Content Writing & Editing. </p>
+                    <P>Actie member in Socio-Environmental societies</P>
+                </div>
+                <div class="education-item">
+                    <h3> Secondary & Higher-Secondary in Science [PCMB]</h3>
+                    <p>Ramakrishna Mission Vidyalaya, Narendrapur, Kolkata, West Bengal | 2013 - 2021 </p>
+                    <p>Completed HS in PCMB. Active member in Music Club, Drama Club, School Football Team.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <h3>Content Writer & Editor </h3>
+                    <p>National Service Scheme (NSS) KIIT-SCE & NSS-Central KIIT| 2023 - Present</p>
+                    <ul>
+                        <li>Contributed to community outreach initiatives like orphanage visits, health home donations,
+                            and old-age home interactions to address social welfare and education equity.
+                        </li>
+                        <li> Participated in awareness campaigns such as "Pollution-Free Environment," "Adult
+                            Education," and "Sarva Shiksha Abhiyan," fostering advocacy for inclusive and sustainable
+                            development.
+                        </li>
+                        <li> Facilitated plantation and cleanliness drives, supporting environmental sustainability and
+                            community health through actionable engagement.</li>
+                        <!-- <li>Collaborated with product managers and designers to define project requirements.</li> -->
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Project Lead</h3>
+                    <p>College semester mini project using AI-ML tech| 2024 - 2025</p>
+                    <ul>
+                        <li>Objective: Developed an advanced AI-based solution to enhance the resolution of low-quality
+                            medical images, improving </li>
+                        <li>diagnostic accuracy and aiding in better treatment planning.</li>
+                        <li>Technologies Used:Deep Learning Frameworks: PyTorch for model implementation and training.
+                        </li>
+                        <li>Programming Languages: Python for coding and data processing.</li>
+                        <li>Libraries: OpenCV, PIL for image preprocessing, and Albumentations for data augmentation
+                        </li>
+                        <li>Achievements:Significantly improved image clarity and detail, achieving higher PSNR, SSIM &
+                            MSE values.</li>
+                        <!-- <li>Developed and maintained client websites using various technologies including WordPress,
+                            React, and Vue.js. Participated in the full software development lifecycle.</li>
+                        <li>Built responsive user interfaces ensuring cross-browser compatibility.</li>
+                        <li>Integrated third-party APIs for payment processing and social media feeds.</li>
+                        <li>Contributed to improving development workflows and tooling.</li> -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certifications-content">
+                <div class="certification-item">
+                    <h3>GenAI & ChatGPT </h3>
+                    <p>ExcelR - Issued Aug 2023</p>
+                </div>
+                <div class="certification-item">
+                    <h3>Fundamentals of Full Stack Development</h3>
+                    <p>ExcelR - Issued Mar 2024</p>
+                </div>
+                <div class="certification-item">
+                    <h3>Git & Github </h3>
+                    <p>ExcelR - Issued Dec 2024</p>
+                </div>
+                <div class="certification-item">
+                    <h3>UiPath Academy Automation Explorer Training</h3>
+                    <p>UiPath Academy - Issued Dec 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Have a question, project idea, or just want to connect? Feel free to send me a message using the form or
+                reach out via the contact details provided.</p>
+            <div class="contact-details">
+                <p>Email: contactpratikmaity@gmail.com</p>
+                <!-- <p>Phone: (123) 456-7890</p> -->
+                <p>Address: KIIT University campus, Patia, Bhubaneswar, Odisha</p>
+            </div>
+            <form>
+                <h3>Send a Message</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pratik Maity. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
